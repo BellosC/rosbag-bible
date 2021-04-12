@@ -73,6 +73,7 @@ export PATH="$HOME/bin:$PATH"
 -----------------------------------------------------------------------------------------------------------
 ## 3. Use of bagpy library #
   > Documentation link: https://jmscslgroup.github.io/bagpy/bagpy_example.html
+  
   > Github link: https://github.com/jmscslgroup/bagpy
 
 Some Impotrant uses of bagpy:
