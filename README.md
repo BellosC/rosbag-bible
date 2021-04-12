@@ -76,7 +76,7 @@ export PATH="$HOME/bin:$PATH"
   
   > Github link: https://github.com/jmscslgroup/bagpy
 
-Some Impotrant uses of bagpy:
+Some impotrant uses of bagpy:
 
 1. Decode message by topic: (potential problem - i have experienced kernel crashes with big messages)
 
