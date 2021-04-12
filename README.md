@@ -71,3 +71,26 @@ export PATH="$HOME/bin:$PATH"
 ``` 
   > I am getting messages now but not sure if it is working properly, so i will just leave it here for now and use **option_1 method**.
 -----------------------------------------------------------------------------------------------------------
+3. # Use of bagpy library #
+  > Documentation link: https://jmscslgroup.github.io/bagpy/bagpy_example.html
+  > Github link: https://github.com/jmscslgroup/bagpy
+
+Some Impotrant uses of bagpy:
+1. Decode message by topic: (potential problem - i have experienced kernel crashes with big messages)
+
+```py
+LASER_MSG = b.message_by_topic('/catvehicle/front_laser_points')
+LASER_MSG
+df_laser = pd.read_csv(LASER_MSG)
+df_laser
+```
+
+1.Decode all available topics:
+
+```py
+csvfiles = []
+for t in b.topics:
+    data = b.message_by_topic(t)
+    csvfiles.append(data)
+
+```
