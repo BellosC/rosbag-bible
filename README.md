@@ -87,7 +87,7 @@ df_laser = pd.read_csv(LASER_MSG)
 df_laser
 ```
 
-2.Decode all available topics:
+2. Decode all available topics: (saves all available topics in .csv format in your computer)
 
 ```py
 csvfiles = []
